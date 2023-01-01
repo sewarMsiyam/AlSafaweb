@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-Safa Academy</title>
+    <link rel="shortcut icon" href="assets/images/assafa-logo.png">
+    <link rel="stylesheet" href="assets/lib/font-awesome/css/all.css">
+    <link rel="stylesheet" href="assets/lib/swiper/swiper-bundle.min.css" />
+    <link href="assets/lib/animate/aos.css" rel="stylesheet">
+    <link href="assets/lib/calendar/main.min.css" rel="stylesheet">
+    <!---En--->
+    <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.min.css">
+    <!-- Ar --->
+    <!-- <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.rtl.min.css"> -->
+    <link rel="stylesheet" href="assets/css/index.css">
+    <!-- <link rel="stylesheet" href="assets/css/indexAr.css"> -->
+</head>
+
+<body id="bg-offwhite">
+    <header class="bg-white">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid logo" src="assets/images/logo-removebg-preview.png">
+                </a>
+                <button class="bg-white navbar-brand d-lg-none shadow-0 border-0" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <img src="assets/images/menu.png">
+                </button>
+
+                <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <div class="offcanvas-title" id="offcanvasExampleLabel">
+                            <img class="img-fluid logo" src="assets/images/logo-removebg-preview.png">
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Courses.html">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Categories.html">Categories</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="Projects.html">Projects</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="Calendar.html">Calendar</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    About
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="Team.html">Team</a></li>
+                                    <li><a class="dropdown-item" href="Blog.html">Blog</a></li>
+                                    <li><a class="dropdown-item" href="AboutUs.html">About Us </a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="ContactUs.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#"><i class="fa-solid fa-globe"></i> eng</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link btn loginbtn" href="login.html">Login</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="Signup.html">Sign up</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav  align-items-center w-scrolls">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Courses.html">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Categories.html">Categories</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="Projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="Calendar.html">Calendar</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                About
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="Team.html">Team</a></li>
+                                <li><a class="dropdown-item" href="Blog.html">Blog</a></li>
+                                <li><a class="dropdown-item" href="AboutUs.html">About Us </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="ContactUs.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="UserProfile.html">Profile</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="AboutCourse.html">My Courses</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav  align-items-center">
+                        <li class=" nav-item ">
+                            <a class=" nav-link" href="#"><i class="fa-solid fa-globe"></i> eng</a>
+                        </li>
+                        <!-- <li class="nav-item ">
+                            <a class="nav-link btn loginbtn" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="Signup.html">Sign up</a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid container-lg p-0">
+        <div class="row bg-white round-8 mtb-Profile g-0 mx-2">
+            <div class="col-12 d-flex justify-content-between align-items-center p-0">
+                <div class="d-flex align-items-center">
+                    <i class="fa-regular fa-user p-3 mx-3 fs-5 i-userProfile rounded-circle"></i>
+                    <div>
+                        <h3 class="name-user m-0">Mohammed Ahmed</h3>
+                        <p class="email-user m-0">emailaddress@email.com</p>
+                    </div>
+                </div>
+                <button class="btn btn-outline-primary">Sign out</button>
+            </div>
+        </div>
+        <div class="row bg-white mb-5 tap-Profile round-8 mx-2">
+            <div class="col-12 dropdown d-block d-lg-none">
+                <button class="btn w-100 form-select dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <span id="nameprofile"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li>
+                        <button class="tablinks dropdown-item active" onclick="openprof(event, 'Personal')">
+                            <i class="fa-solid fa-user mx-3"></i>Personal Info
+                        </button>
+                    </li>
+                    <li>
+                        <button class="tablinks dropdown-item" onclick="openprof(event, 'E-Mail')">
+                            <i class="fa-solid fa-envelope mx-3"></i>E-Mail Address
+                        </button>
+                    </li>
+                    <li>
+                        <button class="tablinks dropdown-item" onclick="openprof(event, 'Password')">
+                            <i class="fa-solid fa-lock mx-3"></i>Password
+                        </button>
+                    </li>
+                    <li>
+                        <button class="tablinks dropdown-item" onclick="openprof(event, 'DeleteAccount')">
+                            <i class="fa-solid fa-trash mx-3"></i>Delete Account
+                        </button>
+                    </li>
+                    <li>
+                        <button class="tablinks dropdown-item" onclick="openprof(event, 'Calendar')">
+                            <i class="fa-solid fa-calendar-days mx-3"></i>Calendar
+                        </button>
+                    </li>
+                    <li>
+                        <button class="tablinks dropdown-item" onclick="openprof(event, 'Certificates')">
+                            <i class="fa-solid fa-certificate mx-3"></i>Certificates
+                        </button>
+                    </li>
+                    <li>
+                        <button class="tablinks dropdown-item" onclick="openprof(event, 'MyCourses')">
+                            <i class="fa-solid fa-certificate mx-3"></i> My Courses
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab d-none d-lg-flex col-12 col-lg-2 col-w-user nav flex-column nav-pills text-start px-0">
+                <button class="tablinks nav-link active" onclick="openprof(event, 'Personal')" id="defaultOpen">
+                    <i class="fa-solid fa-user mx-3"></i>Personal Info
+                </button>
+                <button class="tablinks nav-link" onclick="openprof(event, 'E-Mail')">
+                    <i class="fa-solid fa-envelope mx-3"></i>E-Mail Address
+                </button>
+                <button class="tablinks nav-link" onclick="openprof(event, 'Password')">
+                    <i class="fa-solid fa-lock mx-3"></i>Password
+                </button>
+                <button class="tablinks nav-link" onclick="openprof(event, 'DeleteAccount')">
+                    <i class="fa-solid fa-trash mx-3"></i>Delete Account
+                </button>
+                <button class="tablinks nav-link" onclick="openprof(event, 'Calendar')">
+                    <i class="fa-solid fa-calendar-days mx-3"></i>Calendar
+                </button>
+                <button class="tablinks nav-link" onclick="openprof(event, 'Certificates')">
+                    <i class="fa-solid fa-certificate mx-3"></i>Certificates
+                </button>
+                <button class="tablinks nav-link" onclick="openprof(event, 'MyCourses')">
+                    <i class="fa-solid fa-certificate mx-3"></i> My Courses
+                </button>
+            </div>
+            <div class="col-12 col-lg p-lg-0">
+                <div id="Personal" class="tabcontent">
+                    <form>
+                        <div class="row">
+                            <div class="col-12 col-lg">
+                                <div class="mb-3">
+                                    <div class="d-flex align-items-center" style="height: 184px;">
+                                        <input type='file' id="input-file" style="display:none;" />
+                                        <button class="btn button-file form-label position-relative" id="button-file">
+                                            <img id="myImg" src="assets/images/Upload-Image.png"
+                                                class="img-fluid upload-img rounded-circle" alt="">
+                                            <i
+                                                class="fa-solid fa-arrow-up-from-bracket bg-white p-2 rounded-circle text-primarycolor position-absolute start-50 translate-middle-x"></i>
+                                            Upload Image
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Full Name (Arabic)</label>
+                                    <input type="text" class="form-control shadow-none">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Full Name (English)</label>
+                                    <input type="text" class="form-control shadow-none">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Wallet Credit</label>
+                                    <input type="text" class="form-control shadow-none">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Phone Number</label>
+                                    <input type="text" class="form-control shadow-none">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Signup Date</label>
+                                    <input type="datetime" class="form-control shadow-none">
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg">
+                                <div class="mb-3">
+                                    <label class="form-label">Language</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>English</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Support Pin</label>
+                                    <input type="text" class="form-control shadow-none">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Account Number</label>
+                                    <input type="text" class="form-control shadow-none" disabled>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Loyalty Credit</label>
+                                    <input type="number" class="form-control shadow-none" disabled>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Country</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Palestine</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Nationality</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Palestine</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">City</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>City</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg">
+                                <div class="mb-3">
+                                    <label class="form-label">Gender</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Male</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Education</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>PHD</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Date of Birth</label>
+                                    <div class="d-flex">
+                                        <select class="form-select" id="day" name="dd"></select>
+                                        <select class="form-select mx-2" id="month" name="mm"
+                                            onchange="change_month(this)"></select>
+                                        <select class="form-select" id="year" name="yyyy"
+                                            onchange="change_year(this)"></select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary tab-SaveEdits">Save Edits</button>
+                    </form>
+                </div>
+                <div id="E-Mail" class="tabcontent">
+                    <div class="row">
+                        <div class="col-12 p-0">
+                            <div class="alert alert-dismissible fade show d-flex justify-content-between align-items-center"
+                                role="alert">
+                                <div class="m-0 font-foot-smoll d-flex align-items-center">
+                                    <i class="fa-solid fa-bell px-3"></i> 
+                                    <p>Confirmation link
+                                        to change email
+                                        sent.
+                                        Please check your email.</p>
+                                 </div>
+                                <i class="modal-Close fa-solid fa-circle-xmark px-3 " data-bs-dismiss="alert"
+                                    aria-label="Close"></i>
+                            </div>
+                        </div>
+                        <div class="col-12 p-0">
+                            <form>
+                                <div class="mb-3">
+                                    <label class="form-label">Current Email Address</label>
+                                    <div class="d-flex flex-column flex-lg-row align-items-center">
+                                        <input type="text" class="form-control w-form-control shadow-none"
+                                            placeholder="email@email.com">
+                                        <a href="" class="px-4 text-primarycolor">Send Verification Mail</a>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">New Email Address</label>
+                                    <input type="email" class="form-control w-form-control  shadow-none"
+                                        placeholder="email@email.com">
+                                </div>
+                                <button class="btn btn-primary Change-Email rou-8">Change Email Address</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Password" class="tabcontent ">
+                    <div class="row">
+                        <div class="col-12 p-0">
+                            <form>
+                                <div class="mb-3 p-0">
+                                    <label class="form-label">Current Password</label>
+                                    <div class="position-relative w-form-control">
+                                        <input type="password" class="form-control shadow-none password"
+                                            placeholder="****************">
+                                        <div class="position-absolute top-50 end-0 translate-middle-y mx-3">
+                                            <i class="fa-solid fa-eye togglePassword"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3  p-0">
+                                    <label class="form-label">New Password</label>
+                                    <div class="position-relative w-form-control">
+                                        <input type="password" class="form-control shadow-none password"
+                                            placeholder="****************" id="NPassword">
+                                        <div class="position-absolute top-50 end-0 translate-middle-y mx-3">
+                                            <i class="fa-solid fa-eye togglePassword"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3  p-0">
+                                    <label class="form-label">Repeat New Password</label>
+                                    <div class="position-relative w-form-control">
+                                        <input type="password" class="form-control shadow-none password"
+                                            placeholder="****************" id="RNPassword" onchange="repassword()">
+                                        <div class="position-absolute top-50 end-0 translate-middle-y mx-3">
+                                            <i class="fa-solid fa-eye togglePassword"></i>
+                                        </div>
+                                    </div>
+                                    <div id="validationRNPassword" class="invalid-feedback">
+                                        Please enter the password again, the same password
+                                    </div>
+                                </div>
+                                <button class="btn mt-4 btn-primary Change-Email ">Change Password</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="DeleteAccount" class="tabcontent ">
+                    <div class="row">
+                        <div class="col-12 p-0">
+                            <div class="alert alert-dismissible fade show d-flex justify-content-between align-items-center"
+                                role="alert">
+                                    <div class="m-0 font-foot-smoll d-flex align-items-center">
+                                        <i class="fa-solid fa-bell px-3"></i> 
+                                        <p>Deleting your
+                                            account will be
+                                            permanent and you will not be able to recover it.</p>
+                                     </div>
+                                <i class="modal-Close fa-solid fa-circle-xmark px-3 " data-bs-dismiss="alert"
+                                    aria-label="Close"></i>
+                            </div>
+                        </div>
+                        <div class="col-12 p-0">
+                            <div class="w-divDel">
+                                <p>Delete Account</p>
+                                <p>
+                                    Your account contains the personal data you entered .. You can download or delete it
+                                    through
+                                    the buttons below
+                                </p>
+                                <button class="btn btn-bg-red Change-Email">Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Calendar" class="tabcontent">
+                    <div class="row justify-content-between mb-4 mt-5 align-items-end px-3">
+                        <p class="col d-block d-lg-none text-end">
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Search and Filter
+                            </button>
+                        </p>
+
+                        <div class=" col-12 collapse d-lg-block" id="collapseExample">
+                            <form>
+                                <div class="row g-3 g-lg-0 align-items-center">
+                                    <input type="text" class="form-control m-lg-0 Search" placeholder="&#xf002; Search">
+                                    <select class="form-select Filter" aria-label="Default select example">
+                                        <option selected>Filter</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                    <button class="btn btn-outline-primary Export ms-lg-auto mx-2">Export</button>
+                                    <button class="btn btn-primary Export">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div id="calendar"></div>
+                    </div>
+                </div>
+                <div id="Certificates" class="tabcontent ">
+                    <div class="row g-3">
+                        <div class="col-12 col-md-6 col-lg">
+                            <div class="card border-Certificate-card">
+                                <img src="assets/images/Active 1.png" alt="" class="img-fluid wh-img-Certificate">
+                                <p class="text-center  fs-Certificate">Certificate Name</p>
+                                <a class="btn w-75 mx-auto btn-outline-primary rounded-pill form-control Download"> <i
+                                        class="fa-solid fa-arrow-up-from-bracket"></i> Download</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg">
+                            <div class="card border-Certificate-card">
+                                <img src="assets/images/Active 1.png" alt="" class="img-fluid wh-img-Certificate">
+                                <p class="text-center  fs-Certificate">Certificate Name</p>
+                                <a class="btn w-75 mx-auto btn-outline-primary rounded-pill form-control Download"> <i
+                                        class="fa-solid fa-arrow-up-from-bracket"></i> Download</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg">
+                            <div class="card border-Certificate-card">
+                                <img src="assets/images/Active 1.png" alt="" class="img-fluid wh-img-Certificate">
+                                <p class="text-center  fs-Certificate">Certificate Name</p>
+                                <a class="btn w-75 mx-auto btn-outline-primary rounded-pill form-control Download"> <i
+                                        class="fa-solid fa-arrow-up-from-bracket"></i> Download</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg">
+                            <div class="card border-Certificate-card">
+                                <img src="assets/images/Active 1.png" alt="" class="img-fluid wh-img-Certificate">
+                                <p class="text-center  fs-Certificate">Certificate Name</p>
+                                <a class="btn w-75 mx-auto btn-outline-primary rounded-pill form-control Download"> <i
+                                        class="fa-solid fa-arrow-up-from-bracket"></i> Download</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="MyCourses" class="tabcontent ">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="table-responsive table-bordered  ">
+                                <table class="table text-center m-0">
+                                    <thead class="table-primary">
+                                        <tr>
+                                            <th>Title</th>
+                                            <th>Price/Month</th>
+                                            <th>Lessons Finished</th>
+                                            <th>Lessons Left</th>
+                                            <th>Exams Solved</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Anna</td>
+                                            <td>Pitt</td>
+                                            <td>35</td>
+                                            <td>New York</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Anna</td>
+                                            <td>Pitt</td>
+                                            <td>35</td>
+                                            <td>New York</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Anna</td>
+                                            <td>Pitt</td>
+                                            <td>35</td>
+                                            <td>New York</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Anna</td>
+                                            <td>Pitt</td>
+                                            <td>35</td>
+                                            <td>New York</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Anna</td>
+                                            <td>Pitt</td>
+                                            <td>35</td>
+                                            <td>New York</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Anna</td>
+                                            <td>Pitt</td>
+                                            <td>35</td>
+                                            <td>New York</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Anna</td>
+                                            <td>Pitt</td>
+                                            <td>35</td>
+                                            <td>New York</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Anna</td>
+                                            <td>Pitt</td>
+                                            <td>35</td>
+                                            <td>New York</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="paddtop-Page">
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination justify-content-center">
+                                        <li class="page-item disabled">
+                                            <a class="page-link"><i class="fa-solid fa-angle-left"></i></a>
+                                        </li>
+                                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#"><i class="fa-solid fa-angle-right"></i></a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-footer pt-5 pb-1">
+        <div class="container-fluid container-lg">
+            <div class="row reverss pb-4">
+                <div class="col d-none d-lg-block">
+                    <p class="fs-footer-tit">Browse Pages</p>
+                    <p class="font-foot-smoll mb-1"><a class="text-white" href="index.html">Al-Safa Academy</a> </p>
+                    <p class="font-foot-smoll mb-1"><a class="text-white" href="">Terms and conditions</a></p>
+                    <p class="font-foot-smoll mb-1"><a class="text-white" href="">Privacy policy</a></p>
+                    <p class="font-foot-smoll mb-1"><a class="text-white" href="Courses.html">Cources</a></p>
+                    <p class="font-foot-smoll mb-1"><a class="text-white" href="Team.html">Trainers</a></p>
+                    <p class="font-foot-smoll mb-1"><a class="text-white" href="Projects.html">Projects</a></p>
+                </div>
+                <div class="col-12 col-lg">
+                    <p class="fs-footer-tit mt-4 mt-lg-0">Get In Touch</p>
+                    <p class="font-foot-smoll mb-1">Al-Safa Academy Training Center</p>
+                    <p class="font-foot-smoll textinfooter text-white text-opacity-75 mb-1">
+                        Creativity in providing Quranic services in a modern way that keeps pace with progress. Our
+                        motto: The Quran is for all
+                        Kuala Lumpur, Malaysia
+                    </p>
+                    <p class="font-foot-smoll mb-1">
+                        <a href="callto:+60108442628" class="text-white">Phone: +60108442628</a>
+                    </p>
+                    <p class="font-foot-smoll mb-1">
+                        <a href="mailto:info@assafa-academy.com" class="text-white">E-mail: info@assafa-academy.com</a>
+                    </p>
+                </div>
+                <div class="col-12 col-lg-3 ">
+                    <p class="fs-footer-tit mb-1">Subscribe Newsletter</p>
+                    <p class="font-foot-smoll mb-3">Subscribe to our Weekly newspaper</p>
+                    <form>
+                        <input class="form-control shadow-none p-3" placeholder="testmail2021@gmail.com">
+                        <button class="rounded-3 btn btncolossub p-3 mt-3 w-100">Subscribe</button>
+                    </form>
+                    <div class="d-flex iconfooter align-items-center d-none d-lg-block">
+                        <a href="" class="text-white rounded-circle"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="" class="text-white rounded-circle"><i class="fa-solid fa-m py-2"></i></a>
+                        <a href="" class="text-white rounded-circle "><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="" class="text-white rounded-circle"><i class="fa-brands fa-dribbble"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p class="text-center font-foot-smoll">&copy; Al-Safa Academy. All right reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/lib/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/lib/animate/aso.js"></script>
+    <script src="assets/lib/calendar/main.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script>
+        function openprof(evt, profile) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(profile).style.display = "block";
+            evt.currentTarget.className += " active";
+            console.log(evt.currentTarget.innerHTML);
+            document.getElementById("nameprofile").innerHTML = evt.currentTarget.innerHTML;
+        }
+        document.getElementById("defaultOpen").click();
+
+
+
+        window.addEventListener('load', function () {
+            document.querySelector('input[type="file"]').addEventListener('change', function () {
+                if (this.files && this.files[0]) {
+                    var img = document.getElementById('myImg');
+                    img.onload = () => {
+                        URL.revokeObjectURL(img.src);
+                    }
+                    img.src = URL.createObjectURL(this.files[0]);
+                }
+            });
+        });
+        document.getElementById('button-file').addEventListener('click', (e) => {
+            e.preventDefault();
+            document.getElementById('input-file').click();
+        })
+
+
+
+        // calendar
+        document.addEventListener('DOMContentLoaded', function () {
+            var calendarEl = document.getElementById('calendar');
+
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                timeZone: 'UTC',
+                initialView: 'dayGridMonth',
+                initialDate: '2022-10-19',
+                defaultDate: '2018-03-12',
+                navLinks: true, // can click day/week names to navigate views
+                editable: true,
+                responsive: true,
+                eventLimit: true, // allow "more" link when too many events                
+                headerToolbar: {
+                    left: 'prev',
+                    center: 'title',
+                    right: 'next'
+                },
+                events: [
+                    {
+                        title: 'All Day Event',
+                        start: '2022-10-01'
+                    },
+                    {
+                        title: 'Long Event',
+                        start: '2022-10-07',
+                        end: '2022-10-10'
+                    },
+                    {
+                        groupId: '999',
+                        title: 'Repeating Event',
+                        start: '2022-08-09T16:00:00'
+                    }
+                ]
+            });
+
+            calendar.render();
+        });
+    </script>
+</body>
+
+</html>
